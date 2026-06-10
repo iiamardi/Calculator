@@ -1,4 +1,7 @@
+## Live Demo
+
 [View Live Demo](https://calculator-eight-chi-70.vercel.app/)
+
 # Calculator App
 
 A simple calculator built with React that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The app uses JavaScript state management to handle user input and display results in real time.
