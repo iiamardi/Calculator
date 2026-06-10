@@ -1,16 +1,30 @@
-# React + Vite
+[View Live Demo](https://calculator-eight-chi-70.vercel.app/)
+# Calculator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple calculator built with React that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The app uses JavaScript state management to handle user input and display results in real time.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Basic arithmetic operations (+, -, ×, ÷)
+* Clear and reset functionality
+* Real-time input display
+* Simple and responsive UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript (ES6+)
+* CSS
 
-## Expanding the ESLint configuration
+## How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The calculator evaluates expressions entered by the user and returns the result instantly. It uses JavaScript’s `eval()` function to compute mathematical expressions.
+
+> Note: This project uses `eval()` for simplicity and learning purposes. In production applications, safer expression parsers should be used instead.
+
+## What I Learned
+
+* Handling user input in React
+* State management with `useState`
+* Building interactive UI components
+* Basic expression evaluation logic
